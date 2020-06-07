@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 ### Face Detection
 
-face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("Cascades_Files/haarcascade_frontalface_default.xml")
 
 
 def detect_face(img):
